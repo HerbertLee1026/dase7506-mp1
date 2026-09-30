@@ -1,0 +1,33 @@
+{
+  "max_log_probability_delta": 0.0,
+  "batch_timings_seconds": {
+    "original": [
+      1.872055417043157,
+      1.9547719999682158,
+      1.8820175839355215,
+      1.8368407919770107,
+      1.803788583027199,
+      1.6534607909852639,
+      1.7005286669591442,
+      1.6774960410548374
+    ],
+    "scatter": [
+      1.584009625017643,
+      1.540265709045343,
+      1.8411952080205083,
+      1.824787167017348,
+      1.696036500041373,
+      1.5370792920002714,
+      1.53082737501245,
+      1.5200477089965716
+    ]
+  },
+  "median_seconds": {
+    "original": 1.8203146875021048,
+    "scatter": 1.562137667031493
+  },
+  "implementation_sha256": "ef1f89f31fe8fcacb7875e7d5782aa3428a2bbc59a9229666293cc94cba78471",
+  "parent_checkpoint_sha256": "9cde65239e390907ff853fd653186d175a56ea116328e52044f1de6d5edf525c",
+  "checkpoint_sha256": "a51dff028792d9ec48ab0f4c9a0dfcb9c50a04f7d1c95da355d2c9ed6479933d",
+  "note": "Synthetic CPU batch microbenchmark; full idle validation required for budget."
+}

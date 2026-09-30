@@ -1,0 +1,11 @@
+{
+  "checkpoint_sha256": "0cd9ac2b9bff9b3be59539deb5e2960424ea01f7a3c0011c91b53e99848d6cb2",
+  "parent_checkpoint_sha256": "2258006cc1fac1760e169b5b0add435dc280e1577f3229a88cb5982c8fdc7aa5",
+  "ngram_asset_sha256": "ff020d9fb292fe98be4bb74f19f4ae014ff3039640f6fa59bcfdd36758455128",
+  "ngram_asset_bytes": 16946650,
+  "implementation_sha256": "3f66477c73afd696ca2d476a8559d7da83d5f20dbcbb3794fbac66a97cf83aa8",
+  "selection_split": "validation",
+  "train_bigram_weight": 0.0,
+  "train_trigram_weight": 0.1,
+  "train_trigram_max_branches": 128
+}

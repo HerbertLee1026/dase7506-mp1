@@ -1,0 +1,10 @@
+{
+  "checkpoint_sha256": "aae53b5130c09968355c463daa649722c73785570dea8d4cd272b6a7b7202891",
+  "parent_checkpoint_sha256": "f46e7a26bd0b263031f2d87d745c838931de2d988fc66c73a338808cbe1f095f",
+  "student_cache_sha256": "c0d439d497d501c4c01f7d3c29f633905d4df5fb67b7be05e70540a021935e5c",
+  "student_rope_sha256": "63b272b9ffa0fca577c6dff38b77c674d6ca4d4a1c62d5714a38c4ea80ae5d82",
+  "selection_split": "validation",
+  "cache_unigram_weight": 0.05,
+  "cache_bigram_weight": 0.25,
+  "base_temperature": 1.15
+}

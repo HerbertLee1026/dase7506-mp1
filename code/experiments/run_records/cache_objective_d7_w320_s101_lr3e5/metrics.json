@@ -1,0 +1,158 @@
+{
+  "protocol": "7506-mp1-wt2-v2",
+  "implementation": "student_hidden_variable_ngram",
+  "config": {
+    "vocab": 2048,
+    "width": 320,
+    "heads": 10,
+    "depth": 7,
+    "context": 256,
+    "dropout": 0.2,
+    "cache_unigram_weight": 0.05,
+    "cache_bigram_weight": 0.25,
+    "base_temperature": 1.15,
+    "base_implementation": "student_rope_dropout",
+    "ngram_asset": "assets/train_ngrams_3to5_pruned128.npz",
+    "ngram_asset_sha256": "2b233a7b87ff145221c44d493c8cb3db4176e2daf149180af82eceb6836d88d7",
+    "train_trigram_weight": 0.05,
+    "train_fourgram_weight": 0.05,
+    "train_fivegram_weight": 0.08,
+    "train_ngram_max_branches": 128,
+    "train_later_ngram_max_branches": 1000,
+    "hidden_cache_weight": 0.02,
+    "hidden_cache_beta": 10.0,
+    "hidden_cache_dim": 128
+  },
+  "parent_checkpoint": "runs/hidden_cache_nocopy_a002_b10_dim128_d7_w320_sam1200_s83/checkpoint.pt",
+  "parent_checkpoint_sha256": "9cde65239e390907ff853fd653186d175a56ea116328e52044f1de6d5edf525c",
+  "parent_validation_bpb": 1.4626716440329555,
+  "arguments": {
+    "parent": "runs/hidden_cache_nocopy_a002_b10_dim128_d7_w320_sam1200_s83/checkpoint.pt",
+    "run_dir": "runs/cache_objective_d7_w320_s101_lr3e5",
+    "steps": 1200,
+    "batch_size": 16,
+    "seed": 101,
+    "learning_rate": 3e-05,
+    "eval_every": 200,
+    "patience": 3,
+    "min_delta": 0.0005,
+    "parent_bpb": 1.4626716440329555,
+    "train_device": "mps",
+    "loss_mode": "cache"
+  },
+  "steps_completed": 600,
+  "best_step": 200,
+  "best_validation_bpb": 1.462499356984157,
+  "train_tokens_inherited": 120422400,
+  "train_tokens_added": 2457600,
+  "seconds": 233.0061894999817,
+  "implementation_sha256": "ed5f33f8d516de9dbddb7458d237521afdc59d4530c214c8e7728afdafc27897",
+  "trainer_sha256": "5b6f03c700eeb719542b7fe187e1e92c6fee7d22825c74da52cab93676857cf8",
+  "checkpoint_sha256": "44af0522966dc92c128094d4a0ab07ffacb815a5a63c60a598b8afaf59a29492",
+  "history": [
+    {
+      "step": 50,
+      "loss": 2.9423346519470215,
+      "lr": 2.990139816155494e-05,
+      "seconds": 14.151202750043012
+    },
+    {
+      "step": 100,
+      "loss": 2.7250235080718994,
+      "lr": 2.959920122420289e-05,
+      "seconds": 27.598065958940424
+    },
+    {
+      "step": 150,
+      "loss": 2.8018863201141357,
+      "lr": 2.90985387379986e-05,
+      "seconds": 41.05797591700684
+    },
+    {
+      "step": 200,
+      "loss": 2.8006277084350586,
+      "lr": 2.840797717689088e-05,
+      "seconds": 54.56756687501911
+    },
+    {
+      "step": 250,
+      "loss": 2.8776183128356934,
+      "lr": 2.7539332240650124e-05,
+      "seconds": 89.47086841694545
+    },
+    {
+      "step": 300,
+      "loss": 2.7512221336364746,
+      "lr": 2.650746668496928e-05,
+      "seconds": 103.75495983404107
+    },
+    {
+      "step": 350,
+      "loss": 2.777712821960449,
+      "lr": 2.5330036015593245e-05,
+      "seconds": 118.42149741703179
+    },
+    {
+      "step": 400,
+      "loss": 2.902099132537842,
+      "lr": 2.4027186397720472e-05,
+      "seconds": 132.23429812502582
+    },
+    {
+      "step": 450,
+      "loss": 2.7449865341186523,
+      "lr": 2.2621209949530935e-05,
+      "seconds": 167.9732190000359
+    },
+    {
+      "step": 500,
+      "loss": 2.800934314727783,
+      "lr": 2.1136163317863477e-05,
+      "seconds": 181.9475874999771
+    },
+    {
+      "step": 550,
+      "loss": 2.881467342376709,
+      "lr": 1.959745606231863e-05,
+      "seconds": 196.21249233395793
+    },
+    {
+      "step": 600,
+      "loss": 2.71358323097229,
+      "lr": 1.8031415890649018e-05,
+      "seconds": 210.42471695900895
+    }
+  ],
+  "validation_history": [
+    {
+      "step": 200,
+      "bpb": 1.462499356984157,
+      "token_ppl": 21.9814629407557,
+      "nll_nats": 1163766.043223359,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 21.223440125002526
+    },
+    {
+      "step": 400,
+      "bpb": 1.4629242023290132,
+      "token_ppl": 22.0012041265044,
+      "nll_nats": 1164104.1087299208,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 21.833408958045766
+    },
+    {
+      "step": 600,
+      "bpb": 1.4634292858558804,
+      "token_ppl": 22.024696789789093,
+      "nll_nats": 1164506.0227921407,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 22.540123166982085
+    }
+  ],
+  "selection_split": "validation",
+  "stale_validations": 3,
+  "stop_reason": "No material complete-predictor validation gain."
+}

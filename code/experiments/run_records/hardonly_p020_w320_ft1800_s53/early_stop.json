@@ -1,0 +1,7 @@
+{
+  "reason": "Paired hard-only training was worse than the distillation run at steps 300, 600, and 900 and did not beat the common parent.",
+  "steps_completed": 900,
+  "best_validation_bpb": 1.5371642503151026,
+  "best_checkpoint_sha256": "cc74a6ae5e0ae7274ccd00376dbdd7f9eb50cae3f9f9a061ccd85b5a37a3a5cf",
+  "parent_checkpoint_sha256": "a3b42d992b734e40bbd36c34bb159c152058a1fadda99df599359e86df6e9789"
+}

@@ -1,0 +1,13 @@
+{
+  "checkpoint_sha256": "9cde65239e390907ff853fd653186d175a56ea116328e52044f1de6d5edf525c",
+  "parent_checkpoint_sha256": "c3dbbe052544457236401dac317cb685b411e7d857672d53154ec49b278ea342",
+  "implementation_sha256": "56d5bf3110e58ced0e311dec476a6f56e66c847969b29794064151fbbe963ff1",
+  "asset_sha256": "2b233a7b87ff145221c44d493c8cb3db4176e2daf149180af82eceb6836d88d7",
+  "checkpoint_bytes": 37186294,
+  "asset_bytes": 29208496,
+  "total_asset_bytes": 66394790,
+  "hidden_cache_weight": 0.02,
+  "hidden_cache_beta": 10.0,
+  "hidden_cache_dim": 128,
+  "selection_split": "validation"
+}
