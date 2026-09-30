@@ -1,0 +1,12 @@
+{
+  "parent_checkpoint": "runs/student_rope_dropout_d6_w384_6000_s17/checkpoint.pt",
+  "parent_checkpoint_sha256": "f48801469ff2ebdc618692e2aacb23f1298455df5c39e7a768e361e18f16dd96",
+  "checkpoint_sha256": "cee169c0beea694bd8a069bec87eaee37f7b4e2a0f36a5a9ae562924509a7b15",
+  "ngram_asset_sha256": "de53fcb7bb32f684498b991f4a9c84c83865ba748930407ee630ad48cd0013fb",
+  "parameters": 11437056,
+  "checkpoint_bytes": 45780085,
+  "asset_bytes": 21053142,
+  "total_inference_bytes": 66833227,
+  "asset_source_sha256": "2b233a7b87ff145221c44d493c8cb3db4176e2daf149180af82eceb6836d88d7",
+  "selection_split": "validation"
+}

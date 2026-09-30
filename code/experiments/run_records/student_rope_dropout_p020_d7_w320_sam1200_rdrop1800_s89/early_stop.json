@@ -1,0 +1,8 @@
+{
+  "planned_steps": 1800,
+  "last_validated_step": 600,
+  "best_raw_validation_bpb": 1.5272593459012649,
+  "step_300_full_validation_bpb": 1.4626276684463646,
+  "reference_full_validation_bpb": 1.4626716440329555,
+  "reason": "Stopped shortly after step 600 because raw BPB improved only 0.000706 between steps 300 and 600, while the complete predictor at step 300 improved only 0.000044 over its parent. No evidence of material full-predictor gain."
+}

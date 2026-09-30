@@ -1,0 +1,9 @@
+{
+  "planned_steps": 12000,
+  "last_validated_step": 600,
+  "last_validation_bpb": 1.9751831218264873,
+  "last_validation_seconds": 26.767854875070043,
+  "same_machine_baseline_validation_seconds": 4.327468708972447,
+  "max_allowed_seconds_at_five_times_baseline": 21.637343544862234,
+  "reason": "The model's first complete CPU FP32 validation scoring time exceeded the assignment's 5x baseline limit; training was stopped shortly after the step-600 validation."
+}

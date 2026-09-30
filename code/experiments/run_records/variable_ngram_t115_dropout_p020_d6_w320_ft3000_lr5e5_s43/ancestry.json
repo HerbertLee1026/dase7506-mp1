@@ -1,0 +1,15 @@
+{
+  "checkpoint_sha256": "53046f066f88f435124d0f04827ceb660bf20397fd1da1e0931a17b6d1c75a73",
+  "parent_checkpoint_sha256": "cf80e6ad9db15f5832aea306e060109e410ccc06798a96d6a7fe93d46b7646bc",
+  "asset_sha256": "734ccadf5acee069bd0423ed043692ffb3309e0926f4e631032cc88ebfc09a00",
+  "asset_bytes": 29602454,
+  "checkpoint_bytes": 32249077,
+  "total_asset_bytes": 61851531,
+  "implementation_sha256": "c45391786ecfe5ed407b74d4ae3fe146114b0644ae3a3cd1ec3cfafb44bf6628",
+  "selection_split": "validation",
+  "train_trigram_weight": 0.1,
+  "train_fourgram_weight": 0.05,
+  "train_fivegram_weight": 0.08,
+  "train_ngram_max_branches": 128,
+  "train_later_ngram_max_branches": 1000
+}

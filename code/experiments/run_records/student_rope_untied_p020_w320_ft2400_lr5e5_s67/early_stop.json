@@ -1,0 +1,7 @@
+{
+  "reason": "Validation BPB after steps 300, 600, and 900 did not improve on the tied parent, and the last 300-step gain was negligible.",
+  "steps_completed": 900,
+  "best_validation_bpb": 1.5368236815838967,
+  "best_checkpoint_sha256": "4be7a38cbd28f72c13b0831c9e12a0f4e0850ca185885ec3ce0545b7833aeb75",
+  "parent_checkpoint_sha256": "a3b42d992b734e40bbd36c34bb159c152058a1fadda99df599359e86df6e9789"
+}

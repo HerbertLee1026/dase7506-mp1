@@ -1,0 +1,8 @@
+{
+  "parent_checkpoint_sha256": "a3b42d992b734e40bbd36c34bb159c152058a1fadda99df599359e86df6e9789",
+  "checkpoint_sha256": "6ccdbdcec3fc56b378182248e933ac025d86efc180f5ac46b9f70aad0c088e3c",
+  "checkpoint_bytes": 37183798,
+  "implementation_sha256": "6a75f4523e11dd17d2a6d6c428d3a779133275823a4cf53d145f3a4c240a9057",
+  "new_depth": 7,
+  "initial_logit_max_delta": 0.0
+}

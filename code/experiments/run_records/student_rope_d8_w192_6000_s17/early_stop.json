@@ -1,0 +1,18 @@
+{
+  "implementation": "student_rope",
+  "config": "configs/rope_depth8_width192.json",
+  "seed": 17,
+  "planned_steps": 6000,
+  "last_completed_validation_step": 4800,
+  "validation_bpb": {
+    "600": 1.8479143466722605,
+    "1200": 1.730622679139213,
+    "1800": 1.6854256252947206,
+    "2400": 1.666175189817367,
+    "3000": 1.657673920311895,
+    "3600": 1.6556408154864872,
+    "4200": 1.6560465757458138,
+    "4800": 1.6635876201121826
+  },
+  "reason": "Validation BPB worsened at 4200 and 4800 steps; no checkpoint was produced by the trainer."
+}

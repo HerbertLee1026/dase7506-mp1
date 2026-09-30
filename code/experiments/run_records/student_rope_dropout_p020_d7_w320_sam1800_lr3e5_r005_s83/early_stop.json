@@ -1,0 +1,8 @@
+{
+  "planned_steps": 1800,
+  "last_validated_step": 1200,
+  "best_raw_validation_bpb": 1.5308110427669135,
+  "best_full_validation_bpb": 1.4649591434943892,
+  "full_validation_checkpoint": "runs/variable_ngram_pruned_t115_tri005_dropout_p020_d7_w320_sam1200_s83/checkpoint.pt",
+  "reason": "Stopped shortly after step 1200 because the complete-predictor gain over the existing 1.4657878742034793 candidate was only 0.0008287307090901 BPB, with diminishing improvement per validation interval."
+}

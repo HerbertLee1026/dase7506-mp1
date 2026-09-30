@@ -1,0 +1,25 @@
+{
+  "frozen_at": "2026-09-29T20:15:26.741879+08:00",
+  "checkpoint_sha256": "47103d970645bd1858cc5fee40fefe5bfb880c7c5b29e20652ab8d959b373f39",
+  "asset_sha256": "2b233a7b87ff145221c44d493c8cb3db4176e2daf149180af82eceb6836d88d7",
+  "source_sha256": {
+    "student_hidden_variable_ngram.py": "ed5f33f8d516de9dbddb7458d237521afdc59d4530c214c8e7728afdafc27897",
+    "student_cache.py": "c0d439d497d501c4c01f7d3c29f633905d4df5fb67b7be05e70540a021935e5c",
+    "student_rope_dropout.py": "6a75f4523e11dd17d2a6d6c428d3a779133275823a4cf53d145f3a4c240a9057",
+    "student_variable_ngram.py": "9d19bbed5233865a51914ce3e104ad72bd32ec4413ca127bcbaa2cb4ceb0d0ba",
+    "model.py": "6cce142a31d396f017319543f50d70f30fa6da740729af01c8baed13c6f671f9",
+    "common.py": "d40dc1fe6578b5993a563bdb4d9e5317ddc9fae8afe48822b66571c7042e84db",
+    "student_rope.py": "63b272b9ffa0fca577c6dff38b77c674d6ca4d4a1c62d5714a38c4ea80ae5d82",
+    "evaluate.py": "128bcb2dab0be0d427505bddb4671e3ab3a8f78e114be79a689c0f9029af133d",
+    "student_fast_hidden_ngram.py": "ef1f89f31fe8fcacb7875e7d5782aa3428a2bbc59a9229666293cc94cba78471"
+  },
+  "selection_split": "validation",
+  "validation_bpb": 1.4622831529104345,
+  "validation_cpu_ratio": 4.1963939711514575,
+  "peak_rss_bytes": 1443463168,
+  "inference_bytes": 66394918,
+  "train_target_exposures": 121241600,
+  "test_status": "not yet evaluated for this candidate",
+  "selection_reason": "Lowest complete validation among retained single-model candidates; fast equivalent local scatter frees CPU time for full320-dimensional hidden cache. Selected without this candidate test result.",
+  "previous_test_exposure": "The earlier separately frozen model had been evaluated on test; new round used validation only."
+}

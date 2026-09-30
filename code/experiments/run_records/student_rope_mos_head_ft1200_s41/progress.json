@@ -1,0 +1,93 @@
+{
+  "implementation": "student_rope_mos",
+  "config": {
+    "vocab": 2048,
+    "width": 320,
+    "heads": 10,
+    "depth": 6,
+    "context": 256,
+    "dropout": 0.2
+  },
+  "parent_checkpoint": "runs/student_rope_dropout_p020_d6_w320_6000_s17/checkpoint.pt",
+  "parent_checkpoint_sha256": "981bbfb292158bc5f79458a0b5f4173f24dba53bc391cadf5eb632ff4dd2a1ae",
+  "seed": 41,
+  "planned_steps": 1200,
+  "steps_completed": 600,
+  "batch_size": 32,
+  "trained_parameters": 103042,
+  "learning_rate": 0.001,
+  "train_tokens_inherited": 49152000,
+  "train_tokens_added": 4915200,
+  "seconds": 374.64361774991266,
+  "best_step": 200,
+  "best_validation_bpb": 1.544072831889142,
+  "implementation_sha256": "22ca274838085e12a072c6a3ef993f90845b3d7becc18017b4aff845b7b83fdc",
+  "checkpoint_sha256": "e54d1dc87f4401b87ee69f0effffb8842b1643508ace0928407ec90fa8d8bf03",
+  "history": [
+    {
+      "step": 100,
+      "loss": 2.7845652103424072,
+      "lr": 0.0009849700459076084,
+      "seconds": 58.58378033293411
+    },
+    {
+      "step": 200,
+      "loss": 2.827291250228882,
+      "lr": 0.0009402991441334079,
+      "seconds": 109.83814795792568
+    },
+    {
+      "step": 300,
+      "loss": 2.7832415103912354,
+      "lr": 0.000869030000686348,
+      "seconds": 178.26355008292012
+    },
+    {
+      "step": 400,
+      "loss": 2.983456611633301,
+      "lr": 0.0007760194899145177,
+      "seconds": 230.9005259159021
+    },
+    {
+      "step": 500,
+      "loss": 2.8672046661376953,
+      "lr": 0.0006676061244198804,
+      "seconds": 302.5587140409043
+    },
+    {
+      "step": 600,
+      "loss": 2.8496882915496826,
+      "lr": 0.0005511780958993381,
+      "seconds": 355.9639940409688
+    }
+  ],
+  "validation_history": [
+    {
+      "step": 200,
+      "bpb": 1.544072831889142,
+      "token_ppl": 26.11633078284348,
+      "nll_nats": 1228677.141931748,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 17.068833666970022
+    },
+    {
+      "step": 400,
+      "bpb": 1.5447310136836812,
+      "token_ppl": 26.152676302676447,
+      "nll_nats": 1229200.8820750136,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 18.094702125061303
+    },
+    {
+      "step": 600,
+      "bpb": 1.5455694927467984,
+      "token_ppl": 26.199051307329782,
+      "nll_nats": 1229868.0915728845,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 18.66152650001459
+    }
+  ]
+}

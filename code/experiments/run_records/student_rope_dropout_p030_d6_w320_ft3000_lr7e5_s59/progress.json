@@ -1,0 +1,110 @@
+{
+  "implementation": "student_rope_dropout",
+  "config": {
+    "vocab": 2048,
+    "width": 320,
+    "heads": 10,
+    "depth": 6,
+    "context": 256,
+    "dropout": 0.3
+  },
+  "parent_checkpoint": "runs/student_rope_dropout_p020_d6_w320_ft3000_lr5e5_s43/checkpoint.pt",
+  "parent_checkpoint_sha256": "a3b42d992b734e40bbd36c34bb159c152058a1fadda99df599359e86df6e9789",
+  "seed": 59,
+  "planned_steps": 3000,
+  "steps_completed": 900,
+  "batch_size": 32,
+  "learning_rate": 7e-05,
+  "dropout_override": 0.3,
+  "attention_dropout_override": null,
+  "train_tokens_inherited": 73728000,
+  "train_tokens_added": 7372800,
+  "seconds": 918.8839874169789,
+  "best_validation_bpb": 1.5524956009638657,
+  "history": [
+    {
+      "step": 100,
+      "loss": 3.090657949447632,
+      "lr": 6.98308705777301e-05,
+      "seconds": 90.7555403750157
+    },
+    {
+      "step": 200,
+      "loss": 2.997555732727051,
+      "lr": 6.931849085281058e-05,
+      "seconds": 185.93332516693044
+    },
+    {
+      "step": 300,
+      "loss": 2.958277463912964,
+      "lr": 6.84684572929238e-05,
+      "seconds": 284.14714837493375
+    },
+    {
+      "step": 400,
+      "loss": 2.95810604095459,
+      "lr": 6.729008304363291e-05,
+      "seconds": 399.07755841698963
+    },
+    {
+      "step": 500,
+      "loss": 2.9327809810638428,
+      "lr": 6.579627861980379e-05,
+      "seconds": 496.43685679195914
+    },
+    {
+      "step": 600,
+      "loss": 2.985701084136963,
+      "lr": 6.400341045530255e-05,
+      "seconds": 593.097958499915
+    },
+    {
+      "step": 700,
+      "loss": 2.9788689613342285,
+      "lr": 6.193112158892128e-05,
+      "seconds": 707.00519979198
+    },
+    {
+      "step": 800,
+      "loss": 3.005932331085205,
+      "lr": 5.9602116451134376e-05,
+      "seconds": 804.2405152919237
+    },
+    {
+      "step": 900,
+      "loss": 2.9520013332366943,
+      "lr": 5.704191210960707e-05,
+      "seconds": 902.1115487089846
+    }
+  ],
+  "validation_history": [
+    {
+      "step": 300,
+      "bpb": 1.5524956009638657,
+      "token_ppl": 26.585282554179866,
+      "nll_nats": 1235379.4577941555,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 17.039214915945195
+    },
+    {
+      "step": 600,
+      "bpb": 1.5532123794073223,
+      "token_ppl": 26.625577072344456,
+      "nll_nats": 1235949.825506815,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 16.876532417023554
+    },
+    {
+      "step": 900,
+      "bpb": 1.5536371931604915,
+      "token_ppl": 26.64948728073933,
+      "nll_nats": 1236287.865874677,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 16.74738650000654
+    }
+  ],
+  "checkpoint_sha256": "b986ae26b21775c1ebb88dafc5ac057eaef463b14eabe5044671142b7369c2b0"
+}

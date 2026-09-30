@@ -1,0 +1,151 @@
+{
+  "implementation": "student_rope_dropout",
+  "config": {
+    "vocab": 2048,
+    "width": 320,
+    "heads": 10,
+    "depth": 7,
+    "context": 256,
+    "dropout": 0.2
+  },
+  "parent_checkpoint": "runs/student_rope_dropout_p020_d7_w320_ft3600_lr5e5_s71/checkpoint.pt",
+  "parent_checkpoint_sha256": "26479a7bbaa4ef4ed97f90459e432488afaaa0df0d202547f59ba629959443aa",
+  "seed": 83,
+  "planned_steps": 1800,
+  "steps_completed": 1200,
+  "batch_size": 32,
+  "learning_rate": 3e-05,
+  "rho": 0.05,
+  "training_forward_backward_passes_per_batch": 2,
+  "train_tokens_inherited": 100761600,
+  "train_tokens_added": 19660800,
+  "seconds": 3633.3683909999672,
+  "best_step": 1200,
+  "best_validation_bpb": 1.5308110427669135,
+  "implementation_sha256": "6a75f4523e11dd17d2a6d6c428d3a779133275823a4cf53d145f3a4c240a9057",
+  "checkpoint_sha256": "f46e7a26bd0b263031f2d87d745c838931de2d988fc66c73a338808cbe1f095f",
+  "history": [
+    {
+      "step": 100,
+      "first_loss": 2.772386074066162,
+      "second_loss": 2.7884976863861084,
+      "lr": 2.979897590308945e-05,
+      "seconds": 220.58918274997268
+    },
+    {
+      "step": 200,
+      "first_loss": 2.701514720916748,
+      "second_loss": 2.733755350112915,
+      "lr": 2.9193889714640656e-05,
+      "seconds": 454.11933279095683
+    },
+    {
+      "step": 300,
+      "first_loss": 2.7587435245513916,
+      "second_loss": 2.781113624572754,
+      "lr": 2.8203106110630642e-05,
+      "seconds": 702.6822887499584
+    },
+    {
+      "step": 400,
+      "first_loss": 2.705566883087158,
+      "second_loss": 2.712235689163208,
+      "lr": 2.6856729549506545e-05,
+      "seconds": 961.9607563329628
+    },
+    {
+      "step": 500,
+      "first_loss": 2.740891218185425,
+      "second_loss": 2.7618725299835205,
+      "lr": 2.5195669001778717e-05,
+      "seconds": 1216.635170207941
+    },
+    {
+      "step": 600,
+      "first_loss": 2.7974801063537598,
+      "second_loss": 2.8157155513763428,
+      "lr": 2.3270394951652674e-05,
+      "seconds": 1498.3550975000253
+    },
+    {
+      "step": 700,
+      "first_loss": 2.736759662628174,
+      "second_loss": 2.7480664253234863,
+      "lr": 2.1139405876905817e-05,
+      "seconds": 1807.5174185410142
+    },
+    {
+      "step": 800,
+      "first_loss": 2.7392444610595703,
+      "second_loss": 2.761373996734619,
+      "lr": 1.886745080224183e-05,
+      "seconds": 2112.7320111659355
+    },
+    {
+      "step": 900,
+      "first_loss": 2.7249529361724854,
+      "second_loss": 2.743302822113037,
+      "lr": 1.652356193293963e-05,
+      "seconds": 2518.3727693749825
+    },
+    {
+      "step": 1000,
+      "first_loss": 2.807738780975342,
+      "second_loss": 2.8243408203125,
+      "lr": 1.4178957146227973e-05,
+      "seconds": 2932.825490957941
+    },
+    {
+      "step": 1100,
+      "first_loss": 2.7144410610198975,
+      "second_loss": 2.743701934814453,
+      "lr": 1.1904876072123823e-05,
+      "seconds": 3317.8194724579807
+    },
+    {
+      "step": 1200,
+      "first_loss": 2.777499198913574,
+      "second_loss": 2.7953453063964844,
+      "lr": 9.770415513323292e-06,
+      "seconds": 3614.910312040942
+    }
+  ],
+  "validation_history": [
+    {
+      "step": 300,
+      "bpb": 1.5322277282243355,
+      "token_ppl": 25.470797868553454,
+      "nll_nats": 1219251.5450193582,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 20.696156208985485
+    },
+    {
+      "step": 600,
+      "bpb": 1.5319768387664816,
+      "token_ppl": 25.457298896805234,
+      "nll_nats": 1219051.9027902803,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 27.71473333297763
+    },
+    {
+      "step": 900,
+      "bpb": 1.5314289009242077,
+      "token_ppl": 25.427842266144744,
+      "nll_nats": 1218615.887928742,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 31.786341666942462
+    },
+    {
+      "step": 1200,
+      "bpb": 1.5308110427669135,
+      "token_ppl": 25.39466766793402,
+      "nll_nats": 1218124.2348284833,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 18.381003958988003
+    }
+  ]
+}

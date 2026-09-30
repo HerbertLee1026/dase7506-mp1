@@ -1,0 +1,154 @@
+{
+  "protocol": "7506-mp1-wt2-v2",
+  "implementation": "student_hidden_variable_ngram",
+  "config": {
+    "vocab": 2048,
+    "width": 320,
+    "heads": 10,
+    "depth": 7,
+    "context": 256,
+    "dropout": 0.2,
+    "cache_unigram_weight": 0.05,
+    "cache_bigram_weight": 0.25,
+    "base_temperature": 1.15,
+    "base_implementation": "student_rope_dropout",
+    "ngram_asset": "assets/train_ngrams_3to5_pruned128.npz",
+    "ngram_asset_sha256": "2b233a7b87ff145221c44d493c8cb3db4176e2daf149180af82eceb6836d88d7",
+    "train_trigram_weight": 0.05,
+    "train_fourgram_weight": 0.05,
+    "train_fivegram_weight": 0.08,
+    "train_ngram_max_branches": 128,
+    "train_later_ngram_max_branches": 1000,
+    "hidden_cache_weight": 0.02,
+    "hidden_cache_beta": 10.0,
+    "hidden_cache_dim": 128
+  },
+  "parent_checkpoint": "runs/hidden_cache_nocopy_a002_b10_dim128_d7_w320_sam1200_s83/checkpoint.pt",
+  "parent_checkpoint_sha256": "9cde65239e390907ff853fd653186d175a56ea116328e52044f1de6d5edf525c",
+  "parent_validation_bpb": 1.4626716440329555,
+  "arguments": {
+    "parent": "runs/hidden_cache_nocopy_a002_b10_dim128_d7_w320_sam1200_s83/checkpoint.pt",
+    "run_dir": "runs/muon_d7_w320_s113_lr2e3",
+    "steps": 1800,
+    "batch_size": 16,
+    "seed": 113,
+    "learning_rate": 3e-05,
+    "eval_every": 300,
+    "patience": 3,
+    "min_delta": 0.0007,
+    "parent_bpb": 1.4626716440329555,
+    "train_device": "mps",
+    "loss_mode": "neural",
+    "dropout": null,
+    "optimizer": "muon",
+    "muon_learning_rate": 0.002,
+    "muon_weight_decay": 0.01,
+    "warmup_steps": 100
+  },
+  "steps_completed": 600,
+  "best_step": 0,
+  "best_validation_bpb": 1.4626716440329555,
+  "train_tokens_inherited": 120422400,
+  "train_tokens_added": 2457600,
+  "seconds": 289.4562399579445,
+  "implementation_sha256": "ed5f33f8d516de9dbddb7458d237521afdc59d4530c214c8e7728afdafc27897",
+  "trainer_sha256": "484d87bf7900f4b8b7db053a9c4cbbd096c56972782e7f5e6d547194e891942c",
+  "checkpoint_sha256": "9cde65239e390907ff853fd653186d175a56ea116328e52044f1de6d5edf525c",
+  "history": [
+    {
+      "step": 50,
+      "loss": 2.7976155281066895,
+      "lr": 1.497807177714544e-05,
+      "seconds": 18.07204041699879
+    },
+    {
+      "step": 100,
+      "loss": 2.790163278579712,
+      "lr": 2.982131191385729e-05,
+      "seconds": 38.37073433294427
+    },
+    {
+      "step": 150,
+      "loss": 2.7603044509887695,
+      "lr": 2.9596512951855958e-05,
+      "seconds": 58.46762354194652
+    },
+    {
+      "step": 200,
+      "loss": 2.8202805519104004,
+      "lr": 2.9283457524125025e-05,
+      "seconds": 82.44737195794005
+    },
+    {
+      "step": 250,
+      "loss": 2.8642024993896484,
+      "lr": 2.8884528171497583e-05,
+      "seconds": 102.98349329200573
+    },
+    {
+      "step": 300,
+      "loss": 2.8718128204345703,
+      "lr": 2.8402760987227236e-05,
+      "seconds": 121.57877854199614
+    },
+    {
+      "step": 350,
+      "loss": 2.8783459663391113,
+      "lr": 2.7841822510485265e-05,
+      "seconds": 167.486126667005
+    },
+    {
+      "step": 400,
+      "loss": 2.8487374782562256,
+      "lr": 2.7205981821783598e-05,
+      "seconds": 186.57321133301593
+    },
+    {
+      "step": 450,
+      "loss": 2.819373607635498,
+      "lr": 2.6500078052694347e-05,
+      "seconds": 205.52432345796842
+    },
+    {
+      "step": 500,
+      "loss": 2.8604180812835693,
+      "lr": 2.5729483557136644e-05,
+      "seconds": 224.701961249928
+    },
+    {
+      "step": 550,
+      "loss": 2.711665391921997,
+      "lr": 2.4900063024519345e-05,
+      "seconds": 244.2872977500083
+    },
+    {
+      "step": 600,
+      "loss": 2.9232254028320312,
+      "lr": 2.401812884591349e-05,
+      "seconds": 264.7452232920332
+    }
+  ],
+  "validation_history": [
+    {
+      "step": 300,
+      "bpb": 1.4816151017146941,
+      "token_ppl": 22.88748529617465,
+      "nll_nats": 1178977.1641733192,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 24.22151591698639
+    },
+    {
+      "step": 600,
+      "bpb": 1.4805707825200822,
+      "token_ppl": 22.837037394847354,
+      "nll_nats": 1178146.159898909,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 24.67249308305327
+    }
+  ],
+  "selection_split": "validation",
+  "stale_validations": 2,
+  "stop_reason": "User requested local pause and SSH migration after current validation; stopped at 600-step boundary. No improvement over parent. Resume next experiment from preserved reference; live optimizer state was not supported by this trainer."
+}

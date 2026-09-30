@@ -1,0 +1,70 @@
+{
+  "implementation": "student_rope_dropout",
+  "config": {
+    "vocab": 2048,
+    "width": 384,
+    "heads": 12,
+    "depth": 8,
+    "context": 256,
+    "dropout": 0.25
+  },
+  "seed": 17,
+  "planned_steps": 12000,
+  "steps_completed": 600,
+  "batch_size": 32,
+  "preparation_seconds": 5.237786125042476,
+  "elapsed_seconds": 1009.8542174160248,
+  "best_step": 600,
+  "best_validation_bpb": 1.9751831218264873,
+  "implementation_sha256": "6a75f4523e11dd17d2a6d6c428d3a779133275823a4cf53d145f3a4c240a9057",
+  "checkpoint_sha256": "09e5bf60ab20892a6d7b50230de56b3c226eea9abf73f42c3272c5f088856421",
+  "history": [
+    {
+      "step": 100,
+      "loss": 6.2471513748168945,
+      "lr": 0.000999848864722062,
+      "seconds": 153.63715900003444
+    },
+    {
+      "step": 200,
+      "loss": 5.381228923797607,
+      "lr": 0.0009993894409239521,
+      "seconds": 331.7748384580482
+    },
+    {
+      "step": 300,
+      "loss": 4.979115962982178,
+      "lr": 0.0009986220280505367,
+      "seconds": 500.3326798750786
+    },
+    {
+      "step": 400,
+      "loss": 4.590753555297852,
+      "lr": 0.0009975471520482658,
+      "seconds": 660.8939637499861
+    },
+    {
+      "step": 500,
+      "loss": 4.382075786590576,
+      "lr": 0.0009961655495834601,
+      "seconds": 822.304685833049
+    },
+    {
+      "step": 600,
+      "loss": 4.095296859741211,
+      "lr": 0.0009944781675374362,
+      "seconds": 983.0098345000297
+    }
+  ],
+  "validation_history": [
+    {
+      "step": 600,
+      "bpb": 1.9751831218264873,
+      "token_ppl": 64.94096930561955,
+      "nll_nats": 1571727.9022054805,
+      "targets": 376599,
+      "utf8_bytes": 1148007,
+      "seconds": 26.767854875070043
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "checkpoint_sha256": "47103d970645bd1858cc5fee40fefe5bfb880c7c5b29e20652ab8d959b373f39",
+  "validation_bpb": 1.4622831529104345,
+  "test_bpb": 1.478713291044518,
+  "test_seconds": 23.5479606250301,
+  "baseline_test_seconds": 5.219540417077951,
+  "test_time_ratio": 4.511500772746755,
+  "peak_test_rss_bytes": 1563082752,
+  "inference_bytes": 66394918,
+  "passed_resources": true,
+  "selection_split": "validation",
+  "freeze_before_test": "2026-09-29T20:15:26.741879+08:00",
+  "old_version_test_bpb_for_disclosure": 1.4782461576027206,
+  "test_difference_from_old": 0.0004671334417973849,
+  "training_started_this_round": false
+}

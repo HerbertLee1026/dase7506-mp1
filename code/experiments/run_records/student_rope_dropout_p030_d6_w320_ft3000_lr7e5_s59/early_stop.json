@@ -1,0 +1,7 @@
+{
+  "reason": "Validation BPB at steps 300, 600, and 900 remained worse than the parent and worsened over time.",
+  "steps_completed": 900,
+  "best_validation_bpb": 1.5524956009638657,
+  "best_checkpoint_sha256": "b986ae26b21775c1ebb88dafc5ac057eaef463b14eabe5044671142b7369c2b0",
+  "parent_checkpoint_sha256": "a3b42d992b734e40bbd36c34bb159c152058a1fadda99df599359e86df6e9789"
+}
