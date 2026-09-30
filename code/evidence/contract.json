@@ -1,0 +1,16 @@
+{
+  "errors": {
+    "normalization": 1.1920928955078125e-07,
+    "prefix": 9.5367431640625e-06,
+    "batch": 0.0,
+    "repeat": 0.0,
+    "future": 0.0
+  },
+  "finite": true,
+  "shape": [
+    2,
+    33,
+    2048
+  ],
+  "passed": true
+}

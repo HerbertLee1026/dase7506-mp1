@@ -1,0 +1,32 @@
+{
+  "created": "2026-09-29T20:13:39.603643+08:00",
+  "selection_split": "validation",
+  "training_started": false,
+  "parent": "runs/cache_objective_d7_w320_s101_lr3e5/checkpoint.pt",
+  "parent_sha256": "44af0522966dc92c128094d4a0ab07ffacb815a5a63c60a598b8afaf59a29492",
+  "checkpoint_sha256": "47103d970645bd1858cc5fee40fefe5bfb880c7c5b29e20652ab8d959b373f39",
+  "config": {
+    "vocab": 2048,
+    "width": 320,
+    "heads": 10,
+    "depth": 7,
+    "context": 256,
+    "dropout": 0.2,
+    "cache_unigram_weight": 0.05,
+    "cache_bigram_weight": 0.25,
+    "base_temperature": 1.15,
+    "base_implementation": "student_rope_dropout",
+    "ngram_asset": "assets/train_ngrams_3to5_pruned128.npz",
+    "ngram_asset_sha256": "2b233a7b87ff145221c44d493c8cb3db4176e2daf149180af82eceb6836d88d7",
+    "train_trigram_weight": 0.05,
+    "train_fourgram_weight": 0.05,
+    "train_fivegram_weight": 0.08,
+    "train_ngram_max_branches": 128,
+    "train_later_ngram_max_branches": 1000,
+    "hidden_cache_weight": 0.02,
+    "hidden_cache_beta": 10.0,
+    "hidden_cache_dim": 320
+  },
+  "status": "candidate; awaiting full validation and budget gate before freeze",
+  "reason": "Reuse step200 cache-objective weights; algebraically equivalent local scatter; full-width hidden cache previously improved validation before this continuation. No test used."
+}
